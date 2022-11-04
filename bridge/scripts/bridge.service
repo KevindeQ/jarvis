@@ -1,0 +1,17 @@
+[Unit]
+Description=Home Assistant bridging service
+Requires=network-online.target
+
+[Service]
+Type=notify
+User=pi
+ExecStart=
+Restart=on-failure
+
+StartLimitIntervalSec=120
+StartLimitBurst=5
+
+WatchdogSec=30
+
+[Install]
+WantedBy=multi-user.target
