@@ -1,3 +1,6 @@
 [submodule "bridge/external/spdlog"]
 	path = bridge/external/spdlog
 	url = https://github.com/gabime/spdlog.git
+[submodule "bridge/external/fmt"]
+	path = bridge/external/fmt
+	url = https://github.com/fmtlib/fmt.git
